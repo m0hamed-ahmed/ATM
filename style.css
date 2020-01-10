@@ -1,0 +1,208 @@
+*{
+	padding:0;
+	margin:0;
+}
+.home{
+	background-image:url(images/atm2.jpg);
+	background-size:cover
+}
+.home_div1{
+	font-size:22px;
+	padding:10px;
+	width:988px;
+	margin:20px auto;
+	background-color:rgba(0,0,0,.5);
+	color:#fff;
+	line-height:1.8;
+	font-family:cursive;
+}
+.home_div1 span:nth-of-type(1)
+{
+	color:red;
+	display:block;
+	text-align:center;
+	font-size:30px;
+}
+.buttons{
+	width:988px;
+	margin:20px auto;
+	/*border:1px solid #000;*/
+}
+.buttons button{
+	padding:20px;
+	border-radius:30px;
+	border:none;
+	width:30%;
+	cursor:pointer;
+	outline:none
+}
+.buttons button a{
+	display:block;
+	text-decoration:none;
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:capitalize;
+	letter-spacing:2px
+}
+.buttons button:nth-of-type(1){
+	background-color:transparent;
+	border:2px solid #f00;
+}
+.buttons button:nth-of-type(1):hover{
+	background-color:#f00;
+	border:2px solid #f00;
+}
+
+.buttons button:nth-of-type(2){
+	background-color:transparent;
+	border:2px solid #00f;
+	margin:0 3%;
+}
+.buttons button:nth-of-type(2):hover{
+	background-color:#00f;
+	border:2px solid #00f;
+}
+.buttons button:nth-of-type(3){
+	background-color:transparent;
+	border:2px solid #0f0;
+}
+.buttons button:nth-of-type(3):hover{
+	background-color:#0f0;
+	border:2px solid #0f0;
+}
+.buttons button:nth-of-type(4){
+	background-color:transparent;
+	border:2px solid #ffd5d5;
+	margin:5% 5% 0 5%;
+}
+.buttons button:nth-of-type(4):hover{
+	background-color:#ffd5d5;
+	border:2px solid #ffd5d5;
+}
+.buttons button:nth-of-type(5){
+	background-color:transparent;
+	border:2px solid #223c3f;
+}
+.buttons button:nth-of-type(5):hover{
+	background-color:#223c3f;
+	border:2px solid #223c3f;
+}
+.buttons button:nth-of-type(1):hover a,
+.buttons button:nth-of-type(2):hover a,
+.buttons button:nth-of-type(3):hover a,
+.buttons button:nth-of-type(4):hover a,
+.buttons button:nth-of-type(5):hover a
+{
+	color:#fff;
+}
+.add_user{
+	background-image:url(images/atm1.jpg);
+	background-size:cover;
+}
+.add_user form{
+	width:600px;
+	position:absolute;
+	top:20%;
+	right:5%;
+}
+.add_user form table{
+	width:100%;
+	height:300px;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	padding:10px;
+}
+.add_user form table td{
+	font-size:20px
+}
+.add_user form table input{
+	padding:5px;
+	border:none;
+	background:transparent;
+	border-bottom:1px solid #777;
+	outline:none;
+	color:#fff;
+}
+.add_user form table input[name="submit"]{
+	background:#000;
+	color:#fff;
+	padding:20px;
+	font-size:20px;
+	border:none;
+	border-radius:20px;
+	cursor:pointer;
+	margin:30px 0 0 20px;
+	width:200px;
+}
+.add_user form table input[name="submit"]:hover{
+	color:#f00;
+}
+.search,.show_transaction,.checkout{
+	background-image:url(images/atm2.jpg);
+	background-size:cover
+}
+.search form,.show_transaction form,.checkout form{
+	width:500px;
+	margin:20px auto;
+}
+.search form table,.show_transaction form table,.checkout form table{
+	width:100%;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	padding:10px;
+}
+.search form table td,.show_transaction form table td,.checkout form table td{
+	font-size:20px
+}
+.search form table input,.show_transaction form table input,.checkout form table input{
+	padding:5px;
+	border:none;
+	background:transparent;
+	border-bottom:1px solid #777;
+	outline:none;
+	color:#fff;
+}
+.search form table input[name="submit"],
+.show_transaction form table input[name="submit"],
+.checkout form table input[name="submit0"],
+.checkout form table input[name="submit1"]
+{
+	background:#000;
+	color:#fff;
+	padding:20px;
+	font-size:20px;
+	border:none;
+	border-radius:20px;
+	cursor:pointer;
+	margin-top:30px;
+	width:200px;
+}
+.search form table input[name="submit"]:hover,
+.show_transaction form table input[name="submit"]:hover,
+.checkout form table input[name="submit0"]:hover,
+.checkout form table input[name="submit1"]:hover
+{
+	color:#f00;
+}
+.search_tb1,.search_tb2,.show_transaction_tb1{
+	width:700px;
+	margin:auto;
+}
+.search_tb1 td,.search_tb2 td,.show_transaction_tb1 td{
+	border-bottom:1px solid #000;
+	font-size:20px
+}
+.search_tb1 caption,.search_tb2 caption,.show_transaction_tb1 caption{
+	background-color:#000;
+	color:#fff;
+	padding:10px;
+	margin-bottom:10px;
+	font-size:20px
+}
+.same{
+	font-size:40px;
+	color:#000;
+	font-weight:bold;
+	margin-left:-50px;
+}
